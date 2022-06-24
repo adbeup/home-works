@@ -30,8 +30,7 @@ h3 {font-family: Amatic SC;
     color: rgb(249, 195, 249);
 margin: 0 auto;}
 
-div {width: 870px;
-margin: 0 auto;}
+div {margin: 0 auto;}
 
 ul {padding: 0;
 width: 850px;
@@ -40,18 +39,23 @@ list-style: none;
 }
 
 .part-start {background-color: rgb(247, 173, 255);
-height: 60px;}
+height: 60px;
+width: 870px;}
 .part-one {background-color: rgb(194, 145, 240);
     margin-top: 25px;
     margin-bottom: 25px;
-    padding-bottom: 25px;}
+    padding-bottom: 25px;
+    width: 870px;}
 .part-two {background-color: rgb(127, 127, 239);
     padding-bottom: 25px;
-    margin-bottom: 25px;}
+    margin-bottom: 25px;
+    width: 870px;}
 .part-tre {background-color: rgb(242, 85, 85);
-    margin-bottom: 25px;}
+    margin-bottom: 25px;
+    width: 870px;}
 .part-for {background-color: rgb(246, 199, 81);
-    height: 1638px;}
+    height: 1638px;
+    width: 870px;}
 
 .main-menu-list {padding: 14px;
     width: 484px;
@@ -99,11 +103,11 @@ float: left;
     padding: 10px;
     background-color: #f7f7f7}
 
-    .color-item:not(:nth-child(3n)){margin-right: 20px;}
-    .color-item:not(:nth-last-child(-n+3)){margin-bottom: 20px;}
-    .color-item:nth-child(3n+1){background-color: #88292F;}
-    .color-item:nth-child(3n+2){background-color: #5DB7DE;}
-    .color-item:nth-child(3n+3){background-color: #0D5D56;}
+.color-item:not(:nth-child(3n)){margin-right: 20px;}
+.color-item:not(:nth-last-child(-n+3)){margin-bottom: 20px;}
+.color-item:nth-child(3n+1){background-color: #88292F;}
+.color-item:nth-child(3n+2){background-color: #5DB7DE;}
+.color-item:nth-child(3n+3){background-color: #0D5D56;}
 
     .url-simbol {text-decoration: none;
     color: beige;
@@ -179,3 +183,92 @@ margin-right: 10px;}
     hsl(210deg 70% 62%) 92%,
     hsl(253deg 38% 60%) 100%
   );}
+
+  .pictur-background {width: auto;
+    height: 100vh;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px 10px hsla(0,0%,0%,0.5);
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9)),
+    url("/img/zatushok.jpg");
+    background-size: cover;}
+
+.papa
+{width: 600px;
+height: 600px;
+padding-top: 100px}
+
+.position {
+position: relative;
+margin:0 auto;
+width: 400px;
+height: 400px;
+background-color: #424242;
+box-shadow: 5px 5px 10px 10px hsla(0,0%,0%,0.5);}
+
+.position-item{
+    position: absolute;
+    width: 100px;
+    height: 100px;}
+.one{background-color: #0D5D56;
+top: 0;
+left: 0;}
+.two{background-color: #9b0e0e;
+top: 50%;
+left: 0;
+transform: translateY(-50%);}
+.tre{background-color: #35a8d9;
+top: 100%;
+left: 0;
+transform: translateY(-100%);}
+.for{background-color: #9F3919;
+top: 0;
+left: 50%;
+transform: translateX(-50%);}
+.five{background-color: #5454D4;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);}
+.six{background-color: #A5DEFF;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);}
+.seven{background-color: #FF7143;
+    top: 0;
+    left: 100%;
+transform: translateX(-100%);}
+.eight{background-color: #a821ce;
+    top: 50%;
+    right: 0;
+transform: translateY(-50%);}
+.nin{background-color: #5d590d;
+    bottom: 0;
+    right: 0;} 
+
+   
+    
+   .box {width: 1200px;
+margin: 0 auto;}
+
+.menu, .submenu {list-style: none;
+text-align: center;}
+.menu {font-size: 40px;
+padding: 20px;}
+a {text-decoration: none;
+color: black;
+padding: 15px 30px;
+background-color: rgb(255, 255, 255);
+border: 2px solid #424242;}
+
+.submenu-item{margin-bottom: 14px;}
+
+.submenu a {font-size: 24px;}
+.menu-item, .cubmenu-item {display: inline-block;}
+
+.menu-item {position: relative;}
+.submenu {position: absolute;
+right: 0px;
+top: 65px;
+display: none;}
+.menu-item a:hover{background-color: #e13c9a;
+color: white;}
+.menu-item:hover>.submenu {display: block;}
