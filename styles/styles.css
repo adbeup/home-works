@@ -274,13 +274,17 @@ color: white;}
 .menu-item:hover>.submenu {display: block;} */
 
 body{font-family: 'Rutenia', serif;
-    min-width: 90vh;
-    }
+    min-width: 90vw;
+    
+margin: 0 auto;}
 /* MENU */
 header{
 display: flex;
 justify-content: space-around;
-align-items: center;}
+align-items: center;
+max-width: 1400px;
+margin: 0 auto;
+}
 
 .ukrlogo {width: 240px;}
 .menu-list, .submenu-list {list-style: none;}
